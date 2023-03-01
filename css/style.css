@@ -12,7 +12,7 @@ body{
 
 .column {
     float: left;
-    width: 25%;
+    width: 33%;
     padding: 0 10px;
 }
 
@@ -77,12 +77,80 @@ img {
     object-fit: cover;
     aspect-ratio: 4/4;
 }
-/* .pie a:after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    content: ""
-} */
+/* FOOTER */
+
+  
+  footer a,b {
+    text-decoration: none;
+    color: white;
+  }
+  
+  footer div ul img {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  nav {
+    position: relative;
+    height: auto;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.navbar {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    line-height: 30px;
+}
+
+.links .link {
+    cursor: pointer;
+}
+
+.links h2 {
+    color: rgb(14, 62, 236);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.links h2 span {
+    color: rgb(27, 12, 237);
+    font-weight: 300;
+}
+
+.links .link {
+    display: inline-block;
+}
+
+.links .link a {
+    text-decoration: none;
+    color: rgba(59, 62, 246, 0.932);
+    font-size: 20px;
+    margin: 0 40px;
+    
+}
+
+.links  .link a:hover {
+    color: rgb(13, 254, 250);
+    border-bottom: 3px solid #8e878875;
+}
+ /* @media screen and (max-width: 800px) { */
+
+    nav {
+        position: relative;
+        width: 100%;
+        height: 280px;
+        display: flex;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .links .link {
+        position: relative;
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        line-height: 15px;
+    }
