@@ -2,8 +2,12 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:url('https://img.freepik.com/foto-gratis/jugadores-futbol-accion-estadio-profesional_654080-1820.jpg?w=900&t=st=1677033450~exp=1677034050~hmac=86c8f60cc1c075b77a7d7979f2582842a8953fd575b30440cb8f4ffd71b6762d');
+    width: 100%;
 }
 
 .column {
@@ -58,7 +62,7 @@ body{
 }
 
 .pie{
-  background: #6699ff;
+  background: #f20707fe;
   border-radius:0 0 15px 15px;
   padding: 10px;
   text-align:center;
@@ -69,8 +73,7 @@ body{
 }
 
 img {
-    /* border-radius: 0.5rem 0.5rem 0 0; */
-    /* width: 100%; */
+    border-radius: 0.5rem 0.5rem 0 0;
     object-fit: cover;
     aspect-ratio: 4/4;
 }
